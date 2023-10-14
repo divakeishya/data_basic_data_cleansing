@@ -47,7 +47,7 @@ missing_info = pd.DataFrame({
 
 print(missing_info)
 ``` 
-(https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/00260b6f-3a35-46e4-ab5a-4f83d8c869bb)
+![image](https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/00260b6f-3a35-46e4-ab5a-4f83d8c869bb)
 Insights and Considerations 
 -	Data Completeness: Columns like 'director,' 'cast,' 'country,' 'date_added,' 'rating,' and others have missing values that need attention.
 -	Data Types: The 'release_year' column is correctly identified as an integer ('int64'). Other columns, such as 'date_added' and 'duration,' might need conversion to datetime or numeric types if they contain date or duration information.
@@ -72,7 +72,7 @@ Check the others columns missing values.
 ```python
 df.info()
 ```
-(https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/1920c4a2-1e8f-4f2c-96a0-df741cca01b5)
+![image](https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/1920c4a2-1e8f-4f2c-96a0-df741cca01b5)
 The output shows the continued presence of null values within columns such as 'director', 'cast', 'release_year' and 'rating'.
 
 ## 7. Enhance Data
@@ -171,7 +171,7 @@ movie_df_sorted = movie_df.sort_values(by='duration_num', ascending=False)
 movie_df_sorted[(movie_df_sorted['duration_num'] > 152) | (movie_df_sorted['duration_num'] < 28)]
 ```
 
-(https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/9effa231-6368-42fb-ac7e-79497bed61bf)
+![image](https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/9effa231-6368-42fb-ac7e-79497bed61bf)
 
 
 ## 10. Save Clean Data in CSV
