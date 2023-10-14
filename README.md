@@ -2,18 +2,6 @@
 
 This repository contains the code and steps for cleaning and preparing the Amazon Prime Titles dataset for analysis. The dataset provides information about movies and TV shows available on Amazon Prime, including details such as title, director, cast, release year, and more. The dataset is loaded from a CSV file, and various data cleaning and preprocessing steps are performed.
 
-## Table of Contents
-1. [Python Libraries Import](#python-libraries-import)
-2. [Load Data Set](#load-data-set)
-3. [Check Data Condition](#check-data-condition)
-4. [Check Percentage Missing Values](#check-percentage-missing-values)
-5. [Check and Remove Duplicate Rows](#check-and-remove-duplicate-rows)
-6. [Drop Columns](#drop-columns)
-7. [Enhance Data](#enhance-data)
-8. [Handling Missing Values](#handling-missing-values)
-9. [Check Outliers](#check-outliers)
-10. [Save Clean Data in CSV Format](#save-clean-data-in-csv-format)
-
 ## 1. Python Libraries Import
 The first step involves importing essential Python libraries, which facilitate the data cleaning and analysis processes.
 ```python
