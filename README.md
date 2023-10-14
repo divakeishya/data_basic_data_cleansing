@@ -170,6 +170,7 @@ Filter and select rows from the sorted DataFrame movie_df_sorted where the 'dura
 movie_df_sorted = movie_df.sort_values(by='duration_num', ascending=False)
 movie_df_sorted[(movie_df_sorted['duration_num'] > 152) | (movie_df_sorted['duration_num'] < 28)]
 ```
+
 (https://github.com/divakeishya/data_basic_data_cleansing/assets/145829080/9effa231-6368-42fb-ac7e-79497bed61bf)
 
 
